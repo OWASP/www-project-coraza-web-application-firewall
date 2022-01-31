@@ -10,7 +10,7 @@ pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with M
 ---
 
 <p align="center">
-    <img src="/assets/images/logo-coraza-mascot.png" alt="logo" height="20vh" width="auto">
+    <img src="/assets/images/logo-coraza-mascot.png" alt="logo" height="auto" width="20vw">
 </p>
 
 OWASP Coraza is a golang enterprise-grade Web Application Firewall framework that supports Modsecurity's seclang language and is 100% compatible with OWASP Core Ruleset.

@@ -28,3 +28,15 @@ curl -H "x-format-output: txt-matched-rules" \
  -H "x-backend: coraza-caddy" \
 "https://sandbox.coreruleset.org/?search=<script>alert('CRS+Sandbox+Release')</script>"
 ```
+
+## Take control of your applications
+
+Control your requests and response before processing by your server or your customer's browser by submitting the content to our 4 "phase processors."
+
+![Rule Phases](/assets/images/execution_flow.png)
+
+Parse multiple content types, like XML, JSON, Multipart, and urlencoded, and don't miss anything. Coraza can transform all of this into easily manageable variables.
+
+Extend OWASP Coraza to achieve anything; our plugin framework allows you to extend any capability, like operators, actions, directives, body processors, and audit engines.
+
+Don't miss anything; log everything you need in order to achieve compliance and complete visibility of your applications.

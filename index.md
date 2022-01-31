@@ -2,21 +2,27 @@
 
 layout: col-sidebar
 title: OWASP Coraza Web Application Firewall
-tags: example-tag
+tags: modsecurity coraza coraza-waf web-application-firewall waf coreruleset modsec
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: code
+pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with Modsecurity and OWASP Core Ruleset.
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+![Logo](/assets/images/logo-coraza-mascot.png)
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+OWASP Coraza is a golang enterprise-grade Web Application Firewall framework that supports Modsecurity's seclang language and is 100% compatible with OWASP Core Ruleset.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+Enrich your web application's security with powerful rules that comprehensively enforce good cybersecurity behavior. 
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+OWASP Coraza can be imported as a library or used with one of our connectors like [coraza-server](https://github.com/jptosso/coraza-server) (grpc and spoa), [coraza-caddy](https://github.com/jptosso/coraza-caddy) (web server, reverse proxy), [docker](#) (using connector).
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+## Try OWASP Coraza
 
-type: code, tool, documentation, or other
+Try OWASP Coraza using [OWASP Core Ruleset Sandbox](#) or the [Coraza Playground](#).
+
+```sh
+curl -H "x-format-output: txt-matched-rules" \
+ -H "x-backend: coraza-caddy" \
+"https://sandbox.coreruleset.org/?search=<script>alert('CRS+Sandbox+Release')</script>"
+```

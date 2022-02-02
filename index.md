@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: OWASP Coraza Web Application Firewall
 tags: modsecurity coraza coraza-waf web-application-firewall waf coreruleset modsec
-level: 2
+level: 3
 type: code
 pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with Modsecurity and OWASP Core Ruleset.
 

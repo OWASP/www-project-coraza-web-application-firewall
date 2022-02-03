@@ -3,21 +3,28 @@
 layout: col-sidebar
 title: OWASP Coraza Web Application Firewall
 tags: modsecurity coraza coraza-waf web-application-firewall waf coreruleset modsec
-level: 2
+level: 3
 type: code
 pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with Modsecurity and OWASP Core Ruleset.
 
 ---
 
 <p align="center">
-    <img src="/assets/images/logo-coraza-mascot.png" alt="logo" height="100vh" width="auto">
+    <img src="assets/images/logo-coraza-mascot.png" alt="logo" height="100vh" width="auto">
 </p>
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jptosso_coraza-waf&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jptosso_coraza-waf)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jptosso_coraza-waf&metric=coverage)](https://sonarcloud.io/dashboard?id=jptosso_coraza-waf)
+[![GoDoc](https://godoc.org/github.com/jptosso/coraza-waf?status.svg)](https://godoc.org/github.com/jptosso/coraza-waf)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Coreruleset Compatibility](https://github.com/jptosso/coraza-waf/actions/workflows/go-ftw.yml/badge.svg)](https://github.com/jptosso/coraza-waf/actions/workflows/go-ftw.yml)
+[![OWASP Lab Project](https://img.shields.io/badge/owasp-lab%20project-brightgreen)](https://owasp.org/www-project-coraza-web-application-firewall)
 
 OWASP Coraza is a golang enterprise-grade Web Application Firewall framework that supports Modsecurity's seclang language and is 100% compatible with OWASP Core Ruleset.
 
 Enrich your web application's security with powerful rules that comprehensively enforce good cybersecurity behavior. 
 
-OWASP Coraza can be imported as a library or used with one of our connectors like [coraza-server](https://github.com/jptosso/coraza-server) (grpc and spoa), [coraza-caddy](https://github.com/jptosso/coraza-caddy) (web server, reverse proxy), [docker](#) (using connector).
+OWASP Coraza can be imported as a library or used with one of our connectors like [coraza-server](https://github.com/jptosso/coraza-server) (GRPC and SPOA), [coraza-caddy](https://github.com/jptosso/coraza-caddy) (web server, reverse proxy), [docker](#) (using connector).
 
 ## Try OWASP Coraza
 
@@ -40,3 +47,12 @@ Parse multiple content types, like XML, JSON, Multipart, and urlencoded, and don
 Extend OWASP Coraza to achieve anything; our plugin framework allows you to extend any capability, like operators, actions, directives, body processors, and audit engines.
 
 Don't miss anything; log everything you need in order to achieve compliance and complete visibility of your applications.
+
+## Communication channels
+
+- [OWASP Slack](https://owasp.org/slack/invite) #coraza 
+- [Github Discussions](https://github.com/jptosso/coraza-waf/discussions)
+- Monthly meet (coming soon)
+
+## Licensing
+OWASP Coraza Web Application Firewall is free to use. It is licensed under the Apache Software License version 2 (ASLv2), so you can copy, distribute and transmit the work, and you can adapt it and use it commercially. Still, all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.

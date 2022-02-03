@@ -6,11 +6,11 @@
 * [Version 2.0.0-rc.1](https://github.com/jptosso/coraza-waf/releases/tag/v2.0.0-rc.1)
 
 ### Downloads or Social Links
-* [Download](https://www.github.com/jptosso/coraza-waf)
+* [Download](https://github.com/jptosso/coraza-waf)
 * [Meetup](#)
 
 ### Code Repository
-* [GitHub](https://www.github.com/jptosso/coraza-waf)
+* [GitHub](https://github.com/jptosso/coraza-waf)
 
 ### Change Log
-* [See Releases](https://www.github.com/jptosso/coraza-waf/releases)
+* [See Releases](https://github.com/jptosso/coraza-waf/releases)

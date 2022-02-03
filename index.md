@@ -13,10 +13,6 @@ pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with M
     <img src="assets/images/logo-coraza-mascot.png" alt="logo" height="100vh" width="auto">
 </p>
 
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jptosso_coraza-waf&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jptosso_coraza-waf)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jptosso_coraza-waf&metric=coverage)](https://sonarcloud.io/dashboard?id=jptosso_coraza-waf)
-[![GoDoc](https://godoc.org/github.com/jptosso/coraza-waf?status.svg)](https://godoc.org/github.com/jptosso/coraza-waf)
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Coreruleset Compatibility](https://github.com/jptosso/coraza-waf/actions/workflows/go-ftw.yml/badge.svg)](https://github.com/jptosso/coraza-waf/actions/workflows/go-ftw.yml)
 [![OWASP Lab Project](https://img.shields.io/badge/owasp-lab%20project-brightgreen)](https://owasp.org/www-project-coraza-web-application-firewall)
 

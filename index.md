@@ -44,6 +44,16 @@ Extend OWASP Coraza to achieve anything; our plugin framework allows you to exte
 
 Don't miss anything; log everything you need in order to achieve compliance and complete visibility of your applications.
 
+## Can I contribute?
+
+If you are interested and want to contribute, we are looking for:
+- testers for our plugins
+- plugin developers (new capabilities)
+- connectors developers (C, C++ or go)
+- core developers (golang)
+- document and maintain coraza.io 
+- you name it!
+
 ## Communication channels
 
 - [OWASP Slack](https://owasp.org/slack/invite) #coraza 

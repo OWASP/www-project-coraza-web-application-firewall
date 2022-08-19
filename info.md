@@ -3,15 +3,15 @@
 * <i class="fas fa-flask" style="color:rgb(90,129,175);"></i> Lab Project
 * <i class="fas fa-shield-alt" style="color:rgb(90,129,175);"></i> Defender
 * <i class="fas fa-code" style="color:rgb(90,129,175);"></i> Code
-* [Version 2.0.0-rc.1](https://github.com/jptosso/coraza-waf/releases/tag/v2.0.0-rc.1)
+* [Version 2.0.1](https://github.com/corazawaf/coraza/releases/tag/v2.0.1)
 
 ### Downloads or Social Links
 
-* [Download](https://github.com/jptosso/coraza-waf)
+* [Download](https://github.com/corazawaf/coraza)
 * [Meetup](#)
 
 ### Code Repository
-* [GitHub](https://github.com/jptosso/coraza-waf)
+* [GitHub](https://github.com/corazawaf/coraza)
 
 ### Change Log
-* [See Releases](https://github.com/jptosso/coraza-waf/releases)
+* [See Releases](https://github.com/corazawaf/coraza/releases)

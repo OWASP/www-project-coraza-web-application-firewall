@@ -48,7 +48,7 @@ Don't miss anything; log everything you need in order to achieve compliance and 
 
 - [OWASP Slack](https://owasp.org/slack/invite) #coraza 
 - [Github Discussions](https://github.com/jptosso/coraza-waf/discussions)
-- Monthly meet (coming soon)
+- [Monthly Meeting](https://github.com/corazawaf/coraza/issues?q=label%3Ameeting+)
 
 ## Licensing
 OWASP Coraza Web Application Firewall is free to use. It is licensed under the Apache Software License version 2 (ASLv2), so you can copy, distribute and transmit the work, and you can adapt it and use it commercially. Still, all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.

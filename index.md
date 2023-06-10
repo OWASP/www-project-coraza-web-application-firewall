@@ -20,7 +20,7 @@ OWASP Coraza is a golang enterprise-grade Web Application Firewall framework tha
 
 Enrich your web application's security with powerful rules that comprehensively enforce good cybersecurity behavior. 
 
-OWASP Coraza can be imported as a library or used with one of our connectors like [coraza-server](https://github.com/coraza/coraza-server) (GRPC and SPOA), [coraza-caddy](https://github.com/coraza/coraza-caddy) (web server, reverse proxy), [docker](#) (using connector).
+OWASP Coraza can be imported as a library or used with one of our connectors like [coraza-server](https://github.com/corazawaf/coraza-server) (GRPC and SPOA), [coraza-caddy](https://github.com/corazawaf/coraza-caddy) (web server, reverse proxy), [docker](#) (using connector).
 
 ## Try OWASP Coraza
 
@@ -47,7 +47,7 @@ Don't miss anything; log everything you need in order to achieve compliance and 
 ## Communication channels
 
 - [OWASP Slack](https://owasp.org/slack/invite) #coraza 
-- [Github Discussions](https://github.com/coraza/coraza-waf/discussions)
+- [Github Discussions](https://github.com/corazawaf/coraza/discussions)
 - [Monthly Meeting](https://github.com/corazawaf/coraza/issues?q=label%3Ameeting+)
 
 

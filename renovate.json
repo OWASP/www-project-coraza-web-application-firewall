@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
+  "enabledManagers": [
+    "custom.regex"
+  ],
+  "customManagers": [
+  {
+    "description": "Coraza: Latest Release",
+    "customType": "regex",
+    "fileMatch": [
+      "^info\\.md$"
+    ],
+    "matchStringsStrategy": "any",
+    "matchStrings": [
+      "Version (?<currentValue>\\d+\\.\\d+\\.\\d+)",
+      "\\(https://github.com/corazawaf/coraza/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+])\\)"
+    ],
+    "depNameTemplate": "corazawaf/coraza",
+    "datasourceTemplate": "github-releases"
+  }]
+}

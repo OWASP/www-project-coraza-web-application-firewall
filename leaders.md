@@ -1,4 +1,4 @@
 ### Leaders
-* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+* [Juan Pablo Tosso](mailto:juan.pablotosso@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
-* [José Carlos Chávez](mailto:jcchavezs@gmail.com)
+* [José Carlos Chávez](mailto:josecarlos.chavez@owasp.org)

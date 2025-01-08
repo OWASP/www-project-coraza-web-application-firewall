@@ -16,7 +16,7 @@
     "matchStringsStrategy": "any",
     "matchStrings": [
       "Version (?<currentValue>\\d+\\.\\d+\\.\\d+)",
-      "\\(https://github.com/corazawaf/coraza/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+])\\)"
+      "\\(https://github.com/corazawaf/coraza/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
     ],
     "depNameTemplate": "corazawaf/coraza",
     "datasourceTemplate": "github-releases"

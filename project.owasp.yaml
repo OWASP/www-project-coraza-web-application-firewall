@@ -1,0 +1,87 @@
+audience:
+  - defender
+community:
+  - name: coraza
+    platform: slack
+    url: https://owasp.slack.com/archives/C02BXH135AT
+    description: <https://coraza.io/>
+leaders:
+  - name: Juan Pablo Tosso
+    email: juan.pablotosso@owasp.org
+    github: jptosso
+  - name: Felipe Zipitría
+    email: felipe.zipitria@owasp.org
+    github: fzipi
+  - name: José Carlos Chávez
+    email: josecarlos.chavez@owasp.org
+    github: jcchavezs
+level: 3
+license:
+  - Apache-2.0
+  - BSD-3-Clause
+name: OWASP Coraza Web Application Firewall
+pitch: OWASP Coraza is a golang enterprise-grade WAF framework compatible with Modsecurity and OWASP Core Ruleset.
+repositories:
+  - name: www-project-coraza-web-application-firewall
+    url: https://github.com/OWASP/www-project-coraza-web-application-firewall
+    description: OWASP Foundation Web Repository
+  - name: charts
+    url: https://github.com/corazawaf/charts
+    description: Helm Charts for installing Coraza
+  - name: community
+    url: https://github.com/corazawaf/community
+  - name: coraza
+    url: https://github.com/corazawaf/coraza
+    description: OWASP Coraza WAF is a golang modsecurity compatible web application firewall library
+  - name: coraza-benchmark
+    url: https://github.com/corazawaf/coraza-benchmark
+    description: Coraza Benchmark
+  - name: coraza-caddy
+    url: https://github.com/corazawaf/coraza-caddy
+    description: OWASP Coraza middleware for Caddy. It provides Web Application Firewall capabilities
+  - name: coraza-coreruleset
+    url: https://github.com/corazawaf/coraza-coreruleset
+    description: Wrapper library to consume CRS in coraza without including files
+  - name: coraza-geoip
+    url: https://github.com/corazawaf/coraza-geoip
+  - name: coraza-nginx
+    url: https://github.com/corazawaf/coraza-nginx
+    description: Coraza NGINX Experimental Connector
+  - name: coraza-playground
+    url: https://github.com/corazawaf/coraza-playground
+    description: Playground for coraza engine
+  - name: coraza-proxy-wasm
+    url: https://github.com/corazawaf/coraza-proxy-wasm
+    description: proxy-wasm filter based on Coraza WAF
+  - name: coraza-server
+    url: https://github.com/corazawaf/coraza-server
+    description: Whitepaper for the coraza-server implementation
+  - name: coraza-spoa
+    url: https://github.com/corazawaf/coraza-spoa
+    description: A wrapper for integrating the OWASP Coraza WAF with HAProxy's SPOE filters.
+  - name: coraza-wasilibs
+    url: https://github.com/corazawaf/coraza-wasilibs
+  - name: coraza.io
+    url: https://github.com/corazawaf/coraza.io
+  - name: libcoraza
+    url: https://github.com/corazawaf/libcoraza
+    description: OWASP Coraza C connector
+  - name: libinjection-go
+    url: https://github.com/corazawaf/libinjection-go
+    description: libinjection is a Golang port of the libinjection(https://github.com/client9/libinjection)
+  - name: project-chat-archive
+    url: https://github.com/corazawaf/project-chat-archive
+    description: Archive of the OWASP Coraza project's monthly chats
+  - name: renovate-config
+    url: https://github.com/corazawaf/renovate-config
+    description: RenovateBot configuration
+tags:
+  - modsecurity
+  - coraza
+  - coraza-waf
+  - web-application-firewall
+  - waf
+  - coreruleset
+  - modsec
+type: code
+website: https://owasp.org/www-project-coraza-web-application-firewall
